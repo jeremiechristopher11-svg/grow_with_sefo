@@ -20,9 +20,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <NavLink to="/" className="flex items-center space-x-2">
-            <span className="text-2xl font-display font-bold gradient-text">
-              Grow With Sepho
-            </span>
+            <img
+              src="/images/logo.jpg"
+              alt="Grow With Sepho"
+              className="h-10 w-auto rounded-lg"
+            />
           </NavLink>
 
           {/* Desktop Navigation */}

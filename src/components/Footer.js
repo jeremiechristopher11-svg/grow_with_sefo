@@ -48,9 +48,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <NavLink to="/" className="inline-block">
-              <span className="text-2xl font-display font-bold gradient-text">
-                Grow With Sepho
-              </span>
+              <img
+                src="/images/logo.jpg"
+                alt="Grow With Sepho"
+                className="h-10 w-auto rounded-lg"
+              />
             </NavLink>
             <p className="mt-4 text-gray-400 text-sm max-w-sm">
               Un podcast inspirant dédié à votre croissance personnelle. 

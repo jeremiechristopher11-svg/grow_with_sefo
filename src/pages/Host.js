@@ -19,9 +19,11 @@ const Host = () => {
             <div className="order-2 lg:order-1">
               <div className="relative">
                 <div className="aspect-[3/4] rounded-3xl overflow-hidden bg-gradient-to-br from-brand-pink/30 to-violet-500/30">
-                  <div className="w-full h-full flex items-center justify-center">
-                    <span className="text-gray-500">Photo de Sepho</span>
-                  </div>
+                  <img
+                    src="/images/sephora.jpg"
+                    alt="Sepho - Animatrice Grow With Sepho"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 
                 {/* Floating badge */}
