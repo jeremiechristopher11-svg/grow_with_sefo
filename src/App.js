@@ -7,6 +7,7 @@ import About from './pages/About';
 import Episodes from './pages/Episodes';
 import Host from './pages/Host';
 import FasAFas from './pages/FasAFas';
+import Events from './pages/Events';
 import Contact from './pages/Contact';
 import Subscribe from './pages/Subscribe';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/episodes" element={<Episodes />} />
           <Route path="/animatrice" element={<Host />} />
           <Route path="/fas-a-fas" element={<FasAFas />} />
+          <Route path="/evenements" element={<Events />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/subscribe" element={<Subscribe />} />
         </Routes>

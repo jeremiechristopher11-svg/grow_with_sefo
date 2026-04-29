@@ -11,6 +11,7 @@ const Header = () => {
     { path: '/episodes', label: 'Épisodes' },
     { path: '/animatrice', label: "L'animatrice" },
     { path: '/fas-a-fas', label: 'Fas A Fas' },
+    { path: '/evenements', label: 'Événements' },
     { path: '/contact', label: 'Contact' },
   ];
 

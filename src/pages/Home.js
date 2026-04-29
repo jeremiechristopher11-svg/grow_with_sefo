@@ -337,6 +337,52 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/* Events Gallery Preview */}
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-primary-light/30">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">
+              Nos <span className="text-brand-pink">événements</span>
+            </h2>
+            <p className="text-gray-400 max-w-2xl mx-auto mb-8">
+              Revivez les moments forts de nos rencontres et émissions
+            </p>
+            <a
+              href="/evenements"
+              className="inline-flex items-center space-x-2 px-6 py-3 bg-brand-pink hover:bg-brand-pink-light text-white font-medium rounded-full transition-all duration-300"
+            >
+              <span>Voir tous les événements</span>
+              <ArrowRight size={18} />
+            </a>
+          </div>
+
+          {/* Gallery Grid - Preview */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {[
+              "/images-events-pass/FB_IMG_1776822749295.jpg",
+              "/images-events-pass/FB_IMG_1776822756889.jpg",
+              "/images-events-pass/FB_IMG_1776822767384.jpg",
+              "/images-events-pass/FB_IMG_1776822779863.jpg",
+              "/images-events-pass/FB_IMG_1776822785745.jpg",
+              "/images-events-pass/FB_IMG_1776822797120.jpg",
+            ].map((src, index) => (
+              <a
+                key={index}
+                href="/evenements"
+                className="relative aspect-square rounded-xl overflow-hidden group"
+              >
+                <img
+                  src={src}
+                  alt={`Événement ${index + 1}`}
+                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-brand-pink/0 group-hover:bg-brand-pink/20 transition-colors duration-300" />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

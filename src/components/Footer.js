@@ -27,7 +27,7 @@ const Footer = () => {
       links: [
         { label: 'Fas A Fas', path: '/fas-a-fas' },
         { label: "L'animatrice", path: '/animatrice' },
-        { label: 'Blog', path: '#' },
+        { label: 'Événements', path: '/evenements' },
         { label: 'Newsletter', path: '/subscribe' },
       ],
     },
