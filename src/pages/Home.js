@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { Play, Calendar, Clock, Users, MessageCircle, Scale, Target, HeartHandshake, ArrowRight } from 'lucide-react';
+
+import { Play, Calendar, Clock, Users, Scale, Target, HeartHandshake, ArrowRight } from 'lucide-react';
 
 const Home = () => {
   // Featured episode data

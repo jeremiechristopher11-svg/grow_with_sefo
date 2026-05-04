@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Play, Clock, Calendar, Search, Filter } from 'lucide-react';
+import { Play, Calendar, Search, Filter } from 'lucide-react';
 
 const Episodes = () => {
   const [selectedCategory, setSelectedCategory] = useState('Tous');

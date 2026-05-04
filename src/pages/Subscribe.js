@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Youtube, Headphones, Mail, Check, ArrowRight, Play, Clock, Star } from 'lucide-react';
+import { Youtube, Headphones, Mail, Check, ArrowRight, Play, Star } from 'lucide-react';
 
 const Subscribe = () => {
   const [email, setEmail] = useState('');
